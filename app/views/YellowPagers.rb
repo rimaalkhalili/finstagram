@@ -28,7 +28,8 @@ def yellowPager(text)
         z:'9'
     }
     #Turn string into an array of character 
-    characters =[]
+    
+    characters =text.split(',')
     number = ''
      #loops through characters 
      characters.each  do |c|  
